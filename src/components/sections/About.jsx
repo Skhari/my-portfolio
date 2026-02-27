@@ -80,75 +80,92 @@ export const About = () => {
           </div>
         </div>
 
-        {/* Education & Experience */}
-        {/* Education & Experience */}
-        {/* Education & Experience */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mt-20">
-          {/* Education */}
-          <div>
-            <h3 className="text-2xl font-semibold mb-10 text-neutral-900">
-              Education
-            </h3>
-
-            <div className="space-y-10">
+        <section className="mt-32 py-24 bg-gradient-to-b from-white to-red-50 rounded">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
+              {/* Education */}
               <div>
-                <h4 className="text-lg font-semibold text-neutral-900">
-                  Master of Computer Applications (Online)
-                </h4>
-                <p className="text-red-600 text-sm mt-1">
-                  SASTRA University • Present
-                </p>
+                <h3 className="text-4xl font-extrabold tracking-tight mb-14 text-black">
+                  Education
+                </h3>
+
+                <div className="space-y-14">
+                  <div>
+                    <h4 className="text-xl font-semibold text-black">
+                      Master of Computer Applications (Online)
+                    </h4>
+                    <p className="mt-2 text-base text-neutral-600">
+                      SASTRA University
+                    </p>
+                    <span className="mt-1 inline-block text-sm font-medium text-red-600">
+                      Present
+                    </span>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-semibold text-black">
+                      B.Com Business Analytics
+                    </h4>
+                    <p className="mt-2 text-base text-neutral-600">
+                      Bishop Heber College
+                    </p>
+                    <span className="mt-1 inline-block text-sm font-medium text-red-600">
+                      2022 – 2025
+                    </span>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-semibold text-black">HSC</h4>
+                    <p className="mt-2 text-base text-neutral-600">
+                      Carmel's Higher Secondary School
+                    </p>
+                    <span className="mt-1 inline-block text-sm font-medium text-red-600">
+                      2022
+                    </span>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-semibold text-black">SSLC</h4>
+                    <p className="mt-2 text-base text-neutral-600">
+                      Vasavi Vidhayala Matriculation School
+                    </p>
+                    <span className="mt-1 inline-block text-sm font-medium text-red-600">
+                      2020
+                    </span>
+                  </div>
+                </div>
               </div>
 
+              {/* Work Experience */}
               <div>
-                <h4 className="text-lg font-semibold text-neutral-900">
-                  B.Com Business Analytics
-                </h4>
-                <p className="text-red-600 text-sm mt-1">
-                  Bishop Heber College • 2022 – 2025
-                </p>
-              </div>
+                <h3 className="text-4xl font-extrabold tracking-tight mb-14 text-black">
+                  Work Experience
+                </h3>
 
-              <div>
-                <h4 className="text-lg font-semibold text-neutral-900">HSC</h4>
-                <p className="text-red-600 text-sm mt-1">
-                  Carmel's Higher Secondary School • 2022
-                </p>
-              </div>
+                <div>
+                  <h4 className="text-xl font-semibold text-black">
+                    Full Stack Developer Intern
+                  </h4>
 
-              <div>
-                <h4 className="text-lg font-semibold text-neutral-900">SSLC</h4>
-                <p className="text-red-600 text-sm mt-1">
-                  Vasavi Vidhayala Matriculation School • 2020
-                </p>
+                  <p className="mt-2 text-base text-neutral-600">
+                    VDART – Trichy
+                  </p>
+
+                  <span className="mt-1 inline-block text-sm font-medium text-red-600">
+                    Jan 2025 – Mar 2025
+                  </span>
+
+                  <p className="mt-6 text-base leading-relaxed text-neutral-700">
+                    Collaborated with a development team to build a role-based
+                    Document Management System. Implemented authentication, user
+                    management, document approval workflows, and analytics
+                    dashboards using the MERN stack.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-
-          {/* Work Experience */}
-          <div>
-            <h3 className="text-2xl font-semibold mb-10 text-neutral-900">
-              Work Experience
-            </h3>
-
-            <div>
-              <h4 className="text-lg font-semibold text-neutral-900">
-                Full Stack Developer Intern
-              </h4>
-
-              <p className="text-red-600 text-sm mt-1">
-                VDART • Jan 2025 – Mar 2025
-              </p>
-
-              <p className="mt-4 text-neutral-800 leading-relaxed">
-                Collaborated with a development team to build a role-based
-                Document Management System. Implemented authentication, user
-                management, document approval workflows, and analytics
-                dashboards using the MERN stack.
-              </p>
-            </div>
-          </div>
-        </div>
+        </section>
       </div>
     </section>
   );
