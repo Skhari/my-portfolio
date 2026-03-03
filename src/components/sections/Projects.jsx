@@ -89,7 +89,7 @@ export const Projects = () => {
             <article className="flex max-w-xl flex-col justify-between">
               <div className="overflow-hidden rounded-xl border border-gray-800">
                 <img
-                  src="/web.png"
+                  src="/web_track.png"
                   alt="Movie App Screenshot"
                   className="w-full h-52 object-cover hover:scale-105 transition duration-300"
                 />
