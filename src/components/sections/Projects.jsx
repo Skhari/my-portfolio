@@ -15,7 +15,18 @@ export const Projects = () => {
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 pt-6 lg:max-w-none lg:grid-cols-3">
             {/* Project 1 */}
             <article className="flex max-w-xl flex-col justify-between">
+              {/* <a
+                href="https://your-project.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Link
+              </a> */}
               <div className="overflow-hidden rounded-xl border border-gray-800">
+                <a
+                  href="https://usepopcorn-21ms.vercel.app/"
+                  target="_blank"
+                ></a>
                 <img
                   src="/usePopcorn.png"
                   alt="Movie App Screenshot"
@@ -26,10 +37,17 @@ export const Projects = () => {
                 Front-End
               </span>
 
-              <h3 className="mt-3 text-lg font-semibold text-white">
-                <a href="www.google.com" target="_blank">
+              <h3 className="mt-3 text-lg font-semibold text-white flex justify-between">
+                <a href="https://usepopcorn-21ms.vercel.app/" target="_blank">
                   {" "}
                   UsePopcorn – Movie Rating App{" "}
+                </a>
+                <a
+                  className="text-sm px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 transition text-white"
+                  href="https://usepopcorn-21ms.vercel.app/"
+                  target="_blank"
+                >
+                  Open
                 </a>
               </h3>
 
@@ -52,8 +70,21 @@ export const Projects = () => {
                 Back-End
               </span>
 
-              <h3 className="mt-3 text-lg font-semibold text-white">
-                E-commerce Platform
+              <h3 className="mt-3 text-lg font-semibold text-white flex justify-between">
+                <a
+                  href="https://e-commerce-three-bice-92.vercel.app/"
+                  target="_blank"
+                >
+                  {" "}
+                  E-commerce Platform{" "}
+                </a>
+                <a
+                  className="text-sm px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 transition text-white"
+                  href="https://e-commerce-three-bice-92.vercel.app/"
+                  target="_blank"
+                >
+                  Open
+                </a>
               </h3>
 
               <p className="mt-4 text-sm text-gray-400">
@@ -75,8 +106,21 @@ export const Projects = () => {
                 MERN Stack
               </span>
 
-              <h3 className="mt-3 text-lg font-semibold text-white">
-                Real-Time Chat Application
+              <h3 className="mt-3 text-lg font-semibold text-white flex justify-between">
+                <a
+                  href="https://chat-app-project-umber-nine.vercel.app/login"
+                  target="_blank"
+                >
+                  {" "}
+                  Real-Time Chat Application
+                </a>
+                <a
+                  className="text-sm px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 transition text-white"
+                  href="https://chat-app-project-umber-nine.vercel.app/login"
+                  target="_blank"
+                >
+                  Open
+                </a>
               </h3>
 
               <p className="mt-4 text-sm text-gray-400">
@@ -98,8 +142,21 @@ export const Projects = () => {
                 MERN Stack
               </span>
 
-              <h3 className="mt-3 text-lg font-semibold text-white">
-                Time-Spent – Chrome Extension
+              <h3 className="mt-3 text-lg font-semibold text-white flex justify-between">
+                <a
+                  href="https://github.com/Skhari/Web-tracker-project"
+                  target="_blank"
+                >
+                  {" "}
+                  Time-Spent – Chrome Extension
+                </a>
+                <a
+                  className="text-sm px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 transition text-white"
+                  href="https://github.com/Skhari/Web-tracker-project"
+                  target="_blank"
+                >
+                  Open
+                </a>
               </h3>
 
               <p className="mt-4 text-sm text-gray-400">
