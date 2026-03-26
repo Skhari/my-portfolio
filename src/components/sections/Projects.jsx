@@ -176,8 +176,21 @@ export const Projects = () => {
                 MERN Stack
               </span>
 
-              <h3 className="mt-3 text-lg font-semibold text-white">
-                Live Collaborative Code Editor
+              <h3 className="mt-3 text-lg font-semibold text-white flex justify-between">
+                <a
+                  href="https://chat-app-project-umber-nine.vercel.app/login"
+                  target="_blank"
+                >
+                  {" "}
+                  Live Collaborative Code Editor
+                </a>
+                <a
+                  className="text-sm px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 transition text-white"
+                  href="https://collabrative-code-editor-ten.vercel.app/"
+                  target="_blank"
+                >
+                  Open
+                </a>
               </h3>
 
               <p className="mt-4 text-sm text-gray-400">
