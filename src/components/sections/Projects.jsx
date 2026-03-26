@@ -167,7 +167,7 @@ export const Projects = () => {
             <article className="flex max-w-xl flex-col justify-between">
               <div className="overflow-hidden rounded-xl border border-gray-800">
                 <img
-                  src="/upcoming.jpg"
+                  src="/collabrative-code-editor.jpeg"
                   alt="Movie App Screenshot"
                   className="w-full h-52 object-cover hover:scale-105 transition duration-300"
                 />
@@ -177,15 +177,15 @@ export const Projects = () => {
               </span>
 
               <h3 className="mt-3 text-lg font-semibold text-white">
-                Live Collaborative Code Editor (Currently Building)
+                Live Collaborative Code Editor
               </h3>
 
               <p className="mt-4 text-sm text-gray-400">
-                Developing a real-time collaborative code editor using the MERN
-                stack. Implementing multi-user synchronization with Socket.io,
-                live code editing, and real-time communication. Integrating a
-                code execution API to support multiple programming languages and
-                interactive collaboration.
+                Developed a high-performance real-time editor utilizing Yjs and
+                WebRTC for robust, decentralized collaboration. By implementing
+                CRDT-based synchronization, I eliminated merge conflicts and
+                ensured data consistency across concurrent sessions. Built with
+                the MERN stack, the platform features live code execution.
               </p>
             </article>
           </div>
